@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>PTCS SPUT Tool</title>
+  <link rel="stylesheet" href="./CSS/style.css">
+</head>
+<body>
+  <div class="container">
+    <div id="IpListContainer"></div>
+   
+     <!-- Button Section -->
+  <div class="button-section">
+ 
+      <div class="inner-container"> <!-- Inner container with white border and same gradient -->
+      
+          <div class="browse-text">Browse</div> <!-- Added Browse text -->
+            <div class="choose-dir-container">
+              <div id="folderLabel" for="chooseDirButton">Choose Directory</div>
+                <button id="chooseDirButton">Select Database</button>
+              </div>
+            
+            <!-- Status message element -->
+             <div id="Database_version_name"></div>
+            <div id="statusMessage"></div>
+
+          <div class="SubmitAndSend">
+            <button id="SendButton" disabled>Upload</button>
+          </div>
+      </div>
+  </div>
+
+    <!-- Logo at the bottom right inside container -->
+    <div id="logo-container">
+      <img src="../assets/pt_logo.jpg" alt="Logo" id="logo">
+    </div>
+  </div>
+
+
+
+    <script src="./JS/renderer.js"></script>
+</body>
+</html>
